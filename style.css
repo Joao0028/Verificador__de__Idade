@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: blue; 
+}
+
+.titulo{
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 1em 0 2em 0;
+}
+
+.container{
+    background: white;
+    padding: 1em;
+    margin: auto;
+    width: 40%;
+    border-radius: 12px;
+    color: black;
+    font-weight: 300;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+}
+
+.a{
+    text-align: center;
+}
+
+.data{
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid blue;
+    outline: 0;
+}
+
+.sexos{
+    display: flex;
+    
+}
+.engloba{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.M{
+    margin: 0;
+    font-size: 20px;
+}
+
+.botao{
+    display: block;
+    margin: 1em auto;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+}
+
+.botao:hover{
+    background: black;
+    border: none;
+    color: white;
+}
+.botao:active{
+    color: white;
+    background: blue;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+    display: none;
+}
+
+
+
+
+@media (max-width: 1000px){
+    .container{
+        width: 70%;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .data{
+        width: 50%;
+    }
+    .a, .M{
+        font-size: 16px;
+    }
+    .botao{
+        font-size: 16px;
+        width: 50%;
+    }
+}

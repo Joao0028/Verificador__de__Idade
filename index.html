@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Idade JS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="titulo">Verificador de Idade</h1>
+
+    <section class="container">
+        
+        <h1 class="a">Digite o ano em que você nasceu</h1>
+        <input type="number" class="data" name="data" id="data">
+
+        <h1 class="a">Sexo</h1>
+
+        <div class="engloba">
+            <div class="sexos">
+                <input type="radio" name="sexoo" id="masculino" checked> <label for="masculino"  class="M">Masculino</label >
+            </div>
+            <div class="sexos">
+                <input type="radio" name="sexoo" id="feminino"> <label for="feminino"  class="M">Feminino</label >
+            </div>
+            </div>
+        </div>
+
+        <button class="botao" onclick="calcular()">Verificar</button>
+
+        <h1 class="a" id="resultado">Preencha os dados acima!</h1>  
+
+    </section>
+    <footer style="text-align: center; margin: 1em 0;">&copy;Espero que goste!</footer>
+</body>
+</html>
